@@ -1,0 +1,1 @@
+打开ui文件夹里面的main_window.py文件，运行即可
