@@ -55,6 +55,22 @@
 
 <img width="800" height="450" alt="屏幕截图 2025-12-31 154730" src="https://github.com/user-attachments/assets/0f196589-4415-419f-a94b-ffa71224bcfd" />
 
+---
+
+## 🚀 快速开始 / Usage
+
+###  环境要求
+- Python 3.13+
+- 推荐使用虚拟环境（可选）：
+```bash
+python -m venv venv
+source venv/bin/activate   # Mac/Linux
+venv\Scripts\activate      # Windows
+```
+一次性安装所有依赖
+- pip install -r requirements.txt
+
+打开ui文件夹里面的main_window.py运行即可
 
 ## 📌 说明
 
