@@ -49,8 +49,11 @@
 * UI 配色与布局美化
 * 配置项抽离（主题 / 刷新频率）
 * 更丰富的信息摘要展示
-
 ---
+
+## 展示效果
+<img width="440" height="665" alt="image" src="https://github.com/user-attachments/assets/6aca6d90-5a60-40e1-ab7f-9c8b31408f3f" />
+
 
 ## 📌 说明
 
