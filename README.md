@@ -52,7 +52,8 @@
 ---
 
 ## 展示效果
-<img width="440" height="665" alt="image" src="https://github.com/user-attachments/assets/6aca6d90-5a60-40e1-ab7f-9c8b31408f3f" />
+
+<img width="800" height="450" alt="屏幕截图 2025-12-31 154730" src="https://github.com/user-attachments/assets/0f196589-4415-419f-a94b-ffa71224bcfd" />
 
 
 ## 📌 说明
