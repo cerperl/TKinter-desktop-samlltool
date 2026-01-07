@@ -1,76 +1,76 @@
-# Tkinter 桌面信息小工具
+# Tkinter Desktop Information Tool
 
-一个基于 **Python + Tkinter** 的桌面信息小工具，集成天气查询、月相展示与每日 To-Do 功能，支持自动刷新与异常兜底，侧重工程完整性与实际可用性。
-
----
-
-## ✨ 功能简介
-
-* 🌦 **天气信息展示**
-  基于 Open-Meteo API 获取天气数据，支持定时自动刷新。
-
-* 🌙 **月相计算与展示**
-  使用本地算法计算当前月相，不依赖第三方接口。
-
-* 📝 **每日 To-Do**
-  支持简单待办事项记录，并进行本地数据持久化。
-
-* ⏱ **自动刷新机制**
-  使用 Tkinter `after()` 实现定时更新，避免阻塞主界面。
-
-* 🛡 **异常兜底处理**
-  对 API 异常、网络异常进行捕获，保证程序稳定运行。
+A desktop information utility built with **Python + Tkinter**, integrating weather queries, moon phase display, and a daily To-Do feature.  
+It supports automatic refresh and exception fallback handling, with a focus on engineering completeness and practical usability.
 
 ---
 
-## 🧠 技术要点
+## ✨ Features Overview
 
-* Tkinter GUI 布局与组件状态控制
-* API 调用与返回数据解析
-* 多线程处理耗时任务，主线程安全更新 UI
-* `after()` 定时调度机制
-* 本地文件数据持久化设计
-* 异常捕获与降级显示逻辑
+* 🌦 **Weather Information Display**  
+  Retrieves weather data based on the Open-Meteo API and supports scheduled automatic refresh.
 
----
+* 🌙 **Moon Phase Calculation & Display**  
+  Calculates the current moon phase using a local algorithm, without relying on third-party services.
 
-## 🚀 当前状态
+* 📝 **Daily To-Do**  
+  Supports simple task recording with local data persistence.
 
-* ✅ 核心功能已完成
-* ✅ 程序可稳定运行
-* 🟡 UI 配色与视觉细节尚未优化
+* ⏱ **Automatic Refresh Mechanism**  
+  Uses Tkinter’s `after()` method to implement scheduled updates, avoiding blocking the main UI thread.
 
-> 本项目当前版本侧重功能闭环与工程结构，UI 视觉优化计划在后续版本中逐步完善。
+* 🛡 **Exception Fallback Handling**  
+  Captures API and network exceptions to ensure stable program operation.
 
 ---
 
-## 🔮 后续计划（非当前重点）
+## 🧠 Technical Highlights
 
-* UI 配色与布局美化
-* 配置项抽离（主题 / 刷新频率）
-* 更丰富的信息摘要展示
----
-
-## 展示效果
-
-<img width="800" height="450" alt="屏幕截图 2025-12-31 154730" src="https://github.com/user-attachments/assets/0f196589-4415-419f-a94b-ffa71224bcfd" />
+* Tkinter GUI layout and widget state management  
+* API requests and response data parsing  
+* Multi-threading for handling time-consuming tasks, with safe UI updates on the main thread  
+* `after()` scheduling mechanism  
+* Local file-based data persistence design  
+* Exception handling and degraded display logic  
 
 ---
 
-## 🚀 快速开始 / Usage
+## 🚀 Current Status
 
-###  环境要求
+* ✅ Core functionality completed  
+* ✅ Program runs stably  
+* 🟡 UI color scheme and visual details are not yet optimized  
+
+> The current version of this project focuses on functional completeness and engineering structure.  
+> UI visual optimization will be gradually improved in future versions.
+
+---
+
+## 🔮 Future Plans (Not Current Focus)
+
+* UI color scheme and layout refinement  
+* Configuration extraction (themes / refresh frequency)  
+* More comprehensive information summary display  
+
+---
+
+## Demo
+
+<img width="800" height="450" alt="Screenshot 2025-12-31 154730" src="https://github.com/user-attachments/assets/0f196589-4415-419f-a94b-ffa71224bcfd" />
+
+---
+
+## 🚀 Quick Start / Usage
+
+### Environment Requirements
 - Python 3.13+
-- 推荐使用虚拟环境（可选）：
+- Virtual environment recommended (optional):
 ```bash
 python -m venv venv
 source venv/bin/activate   # Mac/Linux
 venv\Scripts\activate      # Windows
 ```
-一次性安装所有依赖
-- pip install -r requirements.txt
-
-打开ui文件夹里面的main_window.py运行即可
+---
 
 ## 📌 说明
 
