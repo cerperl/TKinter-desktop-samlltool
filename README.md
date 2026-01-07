@@ -72,6 +72,6 @@ venv\Scripts\activate      # Windows
 ```
 ---
 
-## 📌 说明
+## 📌 Notes
 
-这是一个个人练习与探索性质的桌面小项目，重点在于将 Python 基础、API 使用与 GUI 结合，逐步形成完整的小型应用，而非单一功能示例。
+This is a **personal exploratory desktop project** designed to integrate Python fundamentals, API usage, and GUI development into a complete small application, rather than showcasing a single isolated feature.
